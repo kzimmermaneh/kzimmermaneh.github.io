@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Hub</title>
+    <link href="../../fonts.googleapis.com/cssc1ef.css?family=Roboto:400,300,500" rel="stylesheet" />
+    <link href="../../fonts.googleapis.com/icone91f.css?family=Material+Icons" rel="stylesheet" />
+    <link href="../css/global.css" rel="stylesheet" />
+    <link href="../css/components.css" rel="stylesheet" />
+    <link href="../css/layout.css" rel="stylesheet" />
+</head>
+<body>
+    <header class="bg-bluegrey-900 display-flex padding-4 padding-v-md-8 padding-hr-md-12" id="app-bar">
+    <ul class="menu-toolbar menu-toolbar-light padding-right-4">
+        <li>
+            <button class="material-icons menuitem" data-menu="nav-drawer">menu</button>
+        </li>
+    </ul>
+    <h1 class="flex-auto padding-hr-16 padding-v-8 title">
+        <a class="color-light-primary" href="../index.html">Energy Hub</a>
+    </h1>
+    <ul class="menu-toolbar menu-toolbar-light">
+        <li>
+            <button class="material-icons menuitem">search</button>
+        </li>
+        <li>
+            <button class="material-icons menuitem">shopping_cart</button>
+        </li>
+    </ul>
+</header>
+    <div class="bg-white side-drawer" id="nav-drawer">
+    <header class="padding-16 padding-hr-md-24">
+        <i class="color-dark-icon display-3 material-icons">account_circle</i>
+        <h4 class="body-2 padding-top-4">
+            <strong>John Doe</strong>
+        </h4>
+        <h4 class="body-2 color-dark-secondary">johndoe@example.com</h4>
+    </header>
+    <hr class="margin-v-8 separator" />
+    <nav class="list">
+        <a class="color-dark-primary display-flex flex-align-center listitem" href="hub.html">
+            <i class="color-dark-secondary material-icons padding-hr-16 padding-left-md-24">home</i>
+            <strong class="padding-hr-16">Home</strong>
+        </a>
+        <a class="color-dark-primary display-flex flex-align-center listitem" href="#">
+            <i class="color-dark-secondary material-icons padding-hr-16 padding-left-md-24">history</i>
+            <strong class="padding-hr-16">Shop Past Purchases</strong>
+        </a>
+        <a class="color-dark-primary display-flex flex-align-center listitem" href="../industry.html">
+            <i class="color-dark-secondary material-icons padding-hr-16 padding-left-md-24">business</i>
+            <strong class="padding-hr-16">Shop by Industry</strong>
+        </a>
+    </nav>
+    <hr class="margin-v-8 separator" />
+    <h5 class="body-2 color-dark-secondary line-height-48 padding-hr-16 padding-hr-md-24">
+        <strong>Account</strong>
+    </h5>
+    <nav class="list">
+        <a class="color-dark-primary display-flex flex-align-center listitem" href="#">
+            <i class="color-dark-secondary material-icons padding-hr-16 padding-left-md-24">account_circle</i>
+            <strong class="padding-hr-16">My Account</strong>
+        </a>
+        <a class="color-dark-primary display-flex flex-align-center listitem" href="#">
+            <i class="color-dark-secondary material-icons padding-hr-16 padding-left-md-24">shopping_basket</i>
+            <strong class="padding-hr-16">Order History</strong>
+        </a>
+        <a class="color-dark-primary display-flex flex-align-center listitem" href="#">
+            <i class="color-dark-secondary material-icons padding-hr-16 padding-left-md-24">credit_card</i>
+            <strong class="padding-hr-16">Payments</strong>
+        </a>
+        <a class="color-dark-primary display-flex flex-align-center listitem" href="#">
+            <i class="color-dark-secondary material-icons padding-hr-16 padding-left-md-24">power_settings_new</i>
+            <strong class="padding-hr-16">Sign Out</strong>
+        </a>
+    </nav>
+</div>
+    <main>
+        <section class="bg-blue-500">
+    <div class="padding-hr-16 padding-hr-md-24">
+        <div class="aspect-xs-1x1 aspect-sm-21x9 aspect-md-21x9 aspect-md-hero aspect-lg-21x9 aspect-lg-hero content display-aspect">
+            <header class="aspect-content color-light-primary display-flex display-xs-flex flex-direction-xs-column padding-16">
+                <div class="display-flex flex-direction-column flex-justify-center flex-xs-2 flex-sm-4 flex-md-4 flex-lg-4">
+                    <h2 class="display-1 headline-xs">Meet your new rig.</h2>
+                    <h4 class="body-3 color-light-secondary padding-v-16 subheading-xs-1">Easy to maintain. Low maintenance. High efficiency.</h4>
+                    <a class="color-light-primary display-flex flex-align-center margin-top-8" href="#">
+                        <strong class="body-xs-1 subheading-1">SHOP NOW</strong>
+                        <i class="material-icons">chevron_right</i>
+                    </a>
+                </div>                
+                <figure class="bg-contain flex-xs-2 flex-sm-4 flex-md-8 flex-lg-8 flex-order-xs-first" style="background-image: url(../images/mining-right.png)"></figure>
+            </header>
+        </div>
+    </div>
+</section>
+
+
+<section class="padding-hr-16 padding-hr-md-24 padding-v-1x">
+    <div class="content">
+        <div class="display-grid">
+            <h3 class="col-xs-4 col-sm-8 col-md-12 col-lg-12 headline">Shop by Industry</h3>
+            <article class="bg-white col-xs-4 col-sm-4 col-md-4 col-lg-4 whiteframe-z1">
+                <figure class="bg-bluegrey-50 bg-cover display-aspect aspect-xs-21x9 aspect-sm-21x9 aspect-md-16x9 aspect-lg-21x9" style="background-image: url(../images/petroleum-gas.jpg)">
+                    <figcaption class="aspect-content color-light-primary display-flex flex-align-end">
+                        <h3 class="body-3 flex-auto padding-16 padding-top-md-24 scrim-dark-bottom">Petroleum &amp; Gas</h3>
+                    </figcaption>
+                </figure>
+                <nav class="display-flex flex-direction-column padding-v-8">
+                    <a class="color-dark-primary link padding-hr-16 padding-v-8" href="../industry/petroleum-gas/sector/oil-natural-gas.html">Oil &amp; Natural Gas</a>
+                </nav>
+            </article>
+            <article class="bg-white col-xs-4 col-sm-4 col-md-4 col-lg-4 whiteframe-z1">
+                <figure class="bg-bluegrey-50 bg-cover display-aspect aspect-xs-21x9 aspect-sm-21x9 aspect-md-16x9 aspect-lg-21x9" style="background-image: url(../images/coal-industry.jpg)">
+                    <figcaption class="aspect-content color-light-primary display-flex flex-align-end">
+                        <h3 class="body-3 flex-auto padding-16 padding-top-md-24 scrim-dark-bottom">Coal</h3>
+                    </figcaption>
+                </figure>
+                <nav class="display-flex flex-direction-column padding-v-8">
+                    <a class="color-dark-primary link padding-hr-16 padding-v-8" href="#">Nam semper</a>
+                </nav>
+            </article>
+            <article class="bg-white col-xs-4 col-sm-4 col-md-4 col-lg-4 whiteframe-z1">
+                <figure class="bg-bluegrey-50 bg-cover display-aspect aspect-xs-21x9 aspect-sm-21x9 aspect-md-16x9 aspect-lg-21x9" style="background-image: url(../images/renewable-industry.jpg)">
+                    <figcaption class="aspect-content color-light-primary display-flex flex-align-end">
+                        <h3 class="body-3 flex-auto padding-16 padding-top-md-24 scrim-dark-bottom">Renewables</h3>
+                    </figcaption>
+                </figure>
+                <nav class="display-flex flex-direction-column padding-v-8">
+                    <a class="color-dark-primary link padding-hr-16 padding-v-8" href="#">Donec a ligula</a>
+                </nav>
+            </article>
+            <div class="col-xs-4 col-sm-8 col-md-12 col-lg-12 text-align-center">
+                <a class="btn btn-primary btn-raised" href="../industry.html">View All</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="padding-hr-16 padding-hr-md-24 padding-v-1x">
+    <div class="content">
+        <div class="display-grid">
+            <h3 class="col-xs-4 col-sm-8 col-md-12 col-lg-12 headline">What's New</h3>
+                <a class="bg-white col-xs-4 col-sm-4 col-md-3 col-lg-2 color-blue-700 whiteframe-z1" href="../industry/petroleum-gas/sector/oil-natural-gas/capability/sucker-rod-pumping/product/oil-well-grade-d-sucker-rod.html">
+                    <figure class="aspect-xs-16x9 aspect-sm-21x9 aspect-md-4x3 aspect-lg-3x2 bg-bluegrey-50 bg-cover display-aspect" style="background-image: url(../images/sucker-rod.jpg)"></figure>
+                    <div class="padding-16">
+                        <h4 class="color-dark-primary subheading-1">Oil well Grade D Sucker Rod</h4>
+                        <h5 class="body-2 color-dark-secondary">Dongying Nera Petroleum Mechanical Manufacture Co., Ltd.</h5>
+                        <h4 class="padding-top-16 subheading-1">
+                            <strong>$1—10 / meter</strong>
+                        </h4>
+                    </div>
+                </a>
+                <a class="bg-white col-xs-4 col-sm-4 col-md-3 col-lg-2 color-blue-700 whiteframe-z1" href="../industry/petroleum-gas/sector/oil-natural-gas/capability/sucker-rod-pumping/product/oil-well-grade-d-sucker-rod.html">
+                    <figure class="aspect-xs-16x9 aspect-sm-21x9 aspect-md-4x3 aspect-lg-3x2 bg-bluegrey-50 bg-cover display-aspect" style="background-image: url(../images/sucker-rod.jpg)"></figure>
+                    <div class="padding-16">
+                        <h4 class="color-dark-primary subheading-1">Oil well Grade D Sucker Rod</h4>
+                        <h5 class="body-2 color-dark-secondary">Dongying Nera Petroleum Mechanical Manufacture Co., Ltd.</h5>
+                        <h4 class="padding-top-16 subheading-1">
+                            <strong>$1—10 / meter</strong>
+                        </h4>
+                    </div>
+                </a>
+                <a class="bg-white col-xs-4 col-sm-4 col-md-3 col-lg-2 color-blue-700 whiteframe-z1" href="../industry/petroleum-gas/sector/oil-natural-gas/capability/sucker-rod-pumping/product/oil-well-grade-d-sucker-rod.html">
+                    <figure class="aspect-xs-16x9 aspect-sm-21x9 aspect-md-4x3 aspect-lg-3x2 bg-bluegrey-50 bg-cover display-aspect" style="background-image: url(../images/sucker-rod.jpg)"></figure>
+                    <div class="padding-16">
+                        <h4 class="color-dark-primary subheading-1">Oil well Grade D Sucker Rod</h4>
+                        <h5 class="body-2 color-dark-secondary">Dongying Nera Petroleum Mechanical Manufacture Co., Ltd.</h5>
+                        <h4 class="padding-top-16 subheading-1">
+                            <strong>$1—10 / meter</strong>
+                        </h4>
+                    </div>
+                </a>
+                <a class="bg-white col-xs-4 col-sm-4 col-md-3 col-lg-2 color-blue-700 whiteframe-z1" href="../industry/petroleum-gas/sector/oil-natural-gas/capability/sucker-rod-pumping/product/oil-well-grade-d-sucker-rod.html">
+                    <figure class="aspect-xs-16x9 aspect-sm-21x9 aspect-md-4x3 aspect-lg-3x2 bg-bluegrey-50 bg-cover display-aspect" style="background-image: url(../images/sucker-rod.jpg)"></figure>
+                    <div class="padding-16">
+                        <h4 class="color-dark-primary subheading-1">Oil well Grade D Sucker Rod</h4>
+                        <h5 class="body-2 color-dark-secondary">Dongying Nera Petroleum Mechanical Manufacture Co., Ltd.</h5>
+                        <h4 class="padding-top-16 subheading-1">
+                            <strong>$1—10 / meter</strong>
+                        </h4>
+                    </div>
+                </a>
+                <a class="bg-white col-xs-4 col-sm-4 col-md-3 col-lg-2 color-blue-700 whiteframe-z1" href="../industry/petroleum-gas/sector/oil-natural-gas/capability/sucker-rod-pumping/product/oil-well-grade-d-sucker-rod.html">
+                    <figure class="aspect-xs-16x9 aspect-sm-21x9 aspect-md-4x3 aspect-lg-3x2 bg-bluegrey-50 bg-cover display-aspect" style="background-image: url(../images/sucker-rod.jpg)"></figure>
+                    <div class="padding-16">
+                        <h4 class="color-dark-primary subheading-1">Oil well Grade D Sucker Rod</h4>
+                        <h5 class="body-2 color-dark-secondary">Dongying Nera Petroleum Mechanical Manufacture Co., Ltd.</h5>
+                        <h4 class="padding-top-16 subheading-1">
+                            <strong>$1—10 / meter</strong>
+                        </h4>
+                    </div>
+                </a>
+                <a class="bg-white col-xs-4 col-sm-4 col-md-3 col-lg-2 color-blue-700 whiteframe-z1" href="../industry/petroleum-gas/sector/oil-natural-gas/capability/sucker-rod-pumping/product/oil-well-grade-d-sucker-rod.html">
+                    <figure class="aspect-xs-16x9 aspect-sm-21x9 aspect-md-4x3 aspect-lg-3x2 bg-bluegrey-50 bg-cover display-aspect" style="background-image: url(../images/sucker-rod.jpg)"></figure>
+                    <div class="padding-16">
+                        <h4 class="color-dark-primary subheading-1">Oil well Grade D Sucker Rod</h4>
+                        <h5 class="body-2 color-dark-secondary">Dongying Nera Petroleum Mechanical Manufacture Co., Ltd.</h5>
+                        <h4 class="padding-top-16 subheading-1">
+                            <strong>$1—10 / meter</strong>
+                        </h4>
+                    </div>
+                </a>
+            <div class="col-xs-4 col-sm-8 col-md-12 col-lg-12 text-align-center">
+                <a class="btn btn-primary btn-raised" href="#">View All</a>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+    <footer class="bg-bluegrey-100 padding-hr-16 padding-hr-md-24 padding-v-1x">
+    <div class="content">
+        <div class="display-grid">
+            <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3">
+                <h4 class="color-dark-secondary subheading-1">Get to Know Us</h4>
+                <nav class="display-flex flex-direction-column margin-bottom-16 margin-top-8">
+                    <a class="color-dark-hint link padding-v-4" href="#">Careers</a>
+                    <a class="color-dark-hint link padding-v-4" href="#">About Energy Hub</a>
+                    <a class="color-dark-hint link padding-v-4" href="#">Investor Relations</a>
+                </nav>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3">
+                <h4 class="color-dark-secondary subheading-1">Make Money with Us</h4>
+                <nav class="display-flex flex-direction-column margin-bottom-16 margin-top-8">
+                    <a class="color-dark-hint link padding-v-4" href="#">Sell on Energy Hub</a>
+                    <a class="color-dark-hint link padding-v-4" href="#">Sell your services on Energy Hub</a>
+                    <a class="color-dark-hint link padding-v-4" href="#">Become an affiliate</a>
+                    <a class="color-dark-hint link padding-v-4" href="#">Advertise your products</a>
+                    <a class="color-dark-hint link padding-v-4" href="#">Become an Energy Hub vendor</a>
+                </nav>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3">
+                <h4 class="color-dark-secondary subheading-1">Energy Hub Payment Products</h4>
+                <nav class="display-flex flex-direction-column margin-bottom-16 margin-top-8">
+                    <a class="color-dark-hint link padding-v-4" href="#">Energy Hub Rewards Visa Card</a>
+                    <a class="color-dark-hint link padding-v-4" href="#">Energy Hub Store Card</a>
+                    <a class="color-dark-hint link padding-v-4" href="#">Energy Hub Corporate Credit Line</a>
+                    <a class="color-dark-hint link padding-v-4" href="#">Credit Card Marketplace</a>
+                    <a class="color-dark-hint link padding-v-4" href="#">Reload Your Balance</a>
+                </nav>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3">
+                <h4 class="color-dark-secondary subheading-1">Let Us Help You</h4>
+                <nav class="display-flex flex-direction-column margin-bottom-16 margin-top-8">
+                    <a class="color-dark-hint link padding-v-4" href="#">Your Account</a>
+                    <a class="color-dark-hint link padding-v-4" href="#">Your Orders</a>
+                    <a class="color-dark-hint link padding-v-4" href="#">Shipping</a>
+                    <a class="color-dark-hint link padding-v-4" href="#">Returns &amp; Replacements</a>                    
+                </nav>
+            </div>
+            <div class="col-xs-4 col-sm-8 col-md-12 col-lg-12">
+                <h3 class="color-dark-secondary title">Energy Hub</h3>
+                <span class="color-dark-hint">&copy; 2016</span>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="../js/core.dom.js"></script>
+    <script src="../js/ui.menu.js"></script>
+</body>
+
+
+</html>
