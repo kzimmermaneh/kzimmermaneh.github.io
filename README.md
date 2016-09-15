@@ -1,1 +1,1 @@
-# Energy Hub, a prototype for a marketplace platform for energy operators.
+Energy Hub, a prototype for a marketplace platform for energy operators.
